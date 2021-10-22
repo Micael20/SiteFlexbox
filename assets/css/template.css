@@ -199,7 +199,7 @@ article .news_resume{
     margin-bottom: 30px;
 }
 footer{
-    background-color: #1e1e1e;
+    background-color: #171617;
     display: flex;
     justify-content: center;
 }
@@ -232,6 +232,7 @@ footer{
 .footer_areaitem{
     flex: 1;
     color: #FFF;
+    padding-right: 20px;
 }
 .flexColumn{
     flex-direction: column;
@@ -254,3 +255,76 @@ footer .widget_title_text{
 .fm_resume{
     font-size: 15px;
 }
+.widget_body{
+    font-size: 14px;
+    color: #5c5c5c;
+}
+.widget_body1{
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.widget_body2{
+    display: flex;
+    padding-bottom: 15px;
+}
+.widget_body2_1{
+    flex:1;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+}
+.widget_body2_2{
+    flex:1;
+    align-self: flex-end;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.widget_body2_2_1 a{
+    color: #FFF;
+    text-decoration: none;
+}
+.widget_body3{
+    display: flex;
+    justify-content: flex-start;
+}
+.widget_body3_1 img{
+    flex: 1;
+    margin-right: 6px;
+}
+.widget_body3_2{
+    flex: 1;
+    margin-right: 6px;
+}
+.widget_body3_3{
+    flex: 1;
+    margin-right: 6px;
+}
+.widget_body3_4{
+    flex: 1;
+    margin-right: 6px;
+}
+.widget_body_latestPosts{
+    font-size: 14px;
+    color: #FFF;
+    padding-top: 10px;
+}
+.at{
+    padding-top: 6px;
+    font-size: 13px;
+    color: #39AAE1;
+    padding-bottom: 20px;
+}
+.widget_body_third .widget_body_latestPosts{
+    font-size: 14px;
+    color: #5c5c5c;
+    padding-top: 10px;
+}
+.widget_body_latestPosts a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFF;
+    padding-top: 10px;
+}
+
+
