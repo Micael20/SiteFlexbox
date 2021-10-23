@@ -5,7 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, user-scalable=0">
-    <link rel="stylesheet" href="assets/css/template.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/template.css">
+    <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector(".menuMobile").addEventListener("click", function(){
+                if(document.querySelector(".menu nav ul").style.display == 'flex'){
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                 }else{
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+            }
+            });
+        };
+    </script>
     <title>MediCenter</title>
 </head>
 
@@ -17,6 +28,11 @@
             </div>
             <div class="menu">
                 <nav>
+                    <div class="menuMobile">
+                        <div class="mn_line"></div>
+                        <div class="mn_line"></div>
+                        <div class="mn_line"></div>
+                    </div>
                     <ul>
                         <li class="active"><a href="">ABOUT US</a></li>
                         <li><a href="">OUR BRANCHES</a></li>
@@ -253,10 +269,18 @@
                             </div>
                         </div>
                         <div class="widget_body3">
-                            <a href=""><div class="widget_body3_1"><img src="./assets/images/facebook_logo.png"></div></a>
-                            <a href=""><div class="widget_body3_2"><img src="./assets/images/instagram_logo.png"></div></a>
-                            <a href=""><div class="widget_body3_3"><img src="./assets/images/whatsapp_logo.png"></div></a>
-                            <a href=""><div class="widget_body3_4"><img src="./assets/images/linkedin_logo.png"></div></a>
+                            <a href="">
+                                <div class="widget_body3_1"><img src="./assets/images/facebook_logo.png"></div>
+                            </a>
+                            <a href="">
+                                <div class="widget_body3_2"><img src="./assets/images/instagram_logo.png"></div>
+                            </a>
+                            <a href="">
+                                <div class="widget_body3_3"><img src="./assets/images/whatsapp_logo.png"></div>
+                            </a>
+                            <a href="">
+                                <div class="widget_body3_4"><img src="./assets/images/linkedin_logo.png"></div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -269,21 +293,21 @@
                         <div class="widget_body_latestPosts">
                             - Lorem ipsum dolor sit amet, consectetur elit. Dolor sit amet adipiscing.
                         </div>
-                            <div class="at">
-                                6 years ago
-                            </div>
+                        <div class="at">
+                            6 years ago
+                        </div>
                         <div class="widget_body_latestPosts">
                             - Lorem ipsum dolor sit amet, consectetur elit. Dolor sit amet adipiscing.
                         </div>
-                            <div class="at">
-                                6 years ago
-                            </div>
+                        <div class="at">
+                            6 years ago
+                        </div>
                         <div class="widget_body_latestPosts">
                             - Lorem ipsum dolor sit amet, consectetur elit. Dolor sit amet adipiscing.
                         </div>
-                            <div class="at">
-                                6 years ago
-                            </div>
+                        <div class="at">
+                            6 years ago
+                        </div>
                     </div>
                 </div>
                 <div class="footer_areaitem">
@@ -294,28 +318,28 @@
                     <div class="widget_body_third">
                         <div class="widget_body_latestPosts">
                             - Lorem ipsum dolor sit amet, consectetur #adipiscing elit. Dolor sit amet adipiscing.
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor sit amet adipiscing.
-                              <a href="">Lorem ipsum dolor</a>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor sit amet adipiscing.
+                            <a href="">Lorem ipsum dolor</a>
                         </div>
-                            <div class="at">
-                                6 years ago
-                            </div>
+                        <div class="at">
+                            6 years ago
+                        </div>
                         <div class="widget_body_latestPosts">
                             - Lorem ipsum dolor sit amet, consectetur #adipiscing elit. Dolor sit amet adipiscing.
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor sit amet adipiscing.
-                              <a href="">Lorem ipsum dolor</a>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor sit amet adipiscing.
+                            <a href="">Lorem ipsum dolor</a>
                         </div>
-                            <div class="at">
-                                6 years ago
-                            </div>
+                        <div class="at">
+                            6 years ago
+                        </div>
                         <div class="widget_body_latestPosts">
                             - Lorem ipsum dolor sit amet, consectetur #adipiscing elit. Dolor sit amet adipiscing.
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor sit amet adipiscing.
-                              <a href="">Lorem ipsum dolor</a>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor sit amet adipiscing.
+                            <a href="">Lorem ipsum dolor</a>
                         </div>
-                            <div class="at">
-                                6 years ago
-                            </div>
+                        <div class="at">
+                            6 years ago
+                        </div>
                     </div>
                 </div>
             </div>
